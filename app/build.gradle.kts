@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.tedmoon99.cleanarchitecturepractice"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.tedmoon99.cleanarchitecturepractice"
