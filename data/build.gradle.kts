@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    // Clean Architecture 의존방향: Domain Layer의 Repository에 의존
+    implementation(project(":domain"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
