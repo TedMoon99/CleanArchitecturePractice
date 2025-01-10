@@ -36,6 +36,10 @@ android {
 }
 
 dependencies {
+    // Clean Architecture 의존방향: Presentation Layer, Domain Layer, Data Layer
+    implementation(project(":presentation"))
+    implementation(project(":domain"))
+    implementation(project(":data"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
