@@ -23,3 +23,4 @@ rootProject.name = "CleanArchitecturePractice"
 include(":app")
 include(":presentation")
 include(":domain")
+include(":data")
